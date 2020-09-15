@@ -1,0 +1,21 @@
+@import "commons/auth";
+
+.register-app {
+  @extend .app;
+
+  .container {
+    @extend .container;
+
+    form {
+      @extend .form;
+
+      input {
+        @extend .input;
+      }
+
+      button {
+        @extend .button;
+      }
+    }
+  }
+}
